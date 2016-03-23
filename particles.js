@@ -690,6 +690,8 @@ var pJS = function(tag_id, params){
         var color_line = pJS.particles.line_linked.color_rgb_line;
         pJS.canvas.ctx.strokeStyle = 'rgba('+color_line.r+','+color_line.g+','+color_line.b+','+opacity_line+')';
         pJS.canvas.ctx.lineWidth = pJS.particles.line_linked.width;
+        pJS.canvas.ctx.shadowBlur = 20;
+        pJS.canvas.ctx.shadowColor = "#2E9DA4";
         //pJS.canvas.ctx.lineCap = 'round'; /* performance issue */
         
         /* path */

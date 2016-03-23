@@ -23,7 +23,7 @@ particlesJS('particles-js',
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#2E9DA4"
       },
       "shape": {
         "type": "circle",
@@ -44,7 +44,7 @@ particlesJS('particles-js',
         "value": 0.5,
         "random": false,
         "anim": {
-          "enable": false,
+          "enable": true,
           "speed": 1,
           "opacity_min": 0.1,
           "sync": false
@@ -63,13 +63,13 @@ particlesJS('particles-js',
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#ffffff",
+        "color": "#2E9DA4",
         "opacity": 0.4,
         "width": 1
       },
       "move": {
         "enable": true,
-        "speed": 6,
+        "speed": 2,
         "direction": "none",
         "random": false,
         "straight": false,
@@ -86,7 +86,7 @@ particlesJS('particles-js',
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "repulse"
+          "mode": "bubble"
         },
         "onclick": {
           "enable": true,
@@ -96,20 +96,20 @@ particlesJS('particles-js',
       },
       "modes": {
         "grab": {
-          "distance": 400,
+          "distance": 200,
           "line_linked": {
             "opacity": 1
           }
         },
         "bubble": {
           "distance": 400,
-          "size": 40,
+          "size": 6,
           "duration": 2,
           "opacity": 8,
-          "speed": 3
+          "speed": 1
         },
         "repulse": {
-          "distance": 200
+          "distance": 400
         },
         "push": {
           "particles_nb": 4
@@ -121,8 +121,8 @@ particlesJS('particles-js',
     },
     "retina_detect": true,
     "config_demo": {
-      "hide_card": false,
-      "background_color": "#b61924",
+      "hide_card": true,
+      "background_color": "#38CFCA",
       "background_image": "",
       "background_position": "50% 50%",
       "background_repeat": "no-repeat",
